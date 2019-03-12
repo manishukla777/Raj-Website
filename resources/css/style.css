@@ -87,12 +87,13 @@ h2:after {
 }
 
 /* ------- PARAGRAPHS ------- */
-/*change*/
+
 .long-copy {
     line-height: 145%;
     width: 85%;
     margin-left: 10%;
 }
+
 
 /* ------- ICONS ------- */
 
@@ -241,7 +242,7 @@ header {
 .section-about .long-copy {
     margin-bottom: 30px;
 }
-/*change*/
+
 .about-paragraph {
     float: left;
     width: 85%
@@ -262,9 +263,9 @@ header {
 .section-publications {
     background-color: #f4f4f4;
 }
-/*change*/
+
 .publication-box {
-    width: 85%;
+    width: 81%;
     margin-left: 1%;
     background-color: #fff;
     border-radius: 5px;
@@ -272,15 +273,15 @@ header {
     box-shadow: 0 2px 2px #efefef;
 }
 
+
 .publication-box div {
     padding: 25px;
     border-bottom: 1px solid #e8e8e8; 
 }
 
 .publication-box div:first-child {
-    background-color: #fcfcfc;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    background-color: #f4f4f4;
+    border: 0;
 }
 
 .publication-box div:last-child {
@@ -306,17 +307,19 @@ header {
 /* -------------------------------------------- */
 /* FOOTER */
 /* -------------------------------------------- */
-/*change*/
+
 footer {
     font-size: 80%;
     float: right;
     width: 15%;
+    margin-top: 100px;
 }
+
 
 footer h2 {
     color: white;
 }
-/*change*/
+
 .footer-nav a:link,
 .footer-nav a:visited {
     text-decoration: none;

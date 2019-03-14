@@ -90,8 +90,9 @@ h2:after {
 
 .long-copy {
     line-height: 145%;
-    width: 85%;
-    margin-left: 10%;
+    width: 90%;
+    margin-left: 5%;
+    text-align: justify;
 }
 
 
@@ -243,6 +244,10 @@ header {
     margin-bottom: 30px;
 }
 
+.heading-about {
+    margin-right: 15%;
+}
+
 .about-paragraph {
     float: left;
     width: 85%
@@ -262,11 +267,22 @@ header {
 
 .section-publications {
     background-color: #f4f4f4;
+    text-align: justify;
+}
+
+.heading-publication {
+    margin-right: 15%;
+}
+
+.about-publications {
+    float: left;
+    width: 85%;
+    background-color: #f4f4f4;
 }
 
 .publication-box {
-    width: 81%;
-    margin-left: 1%;
+    width: 90%;
+    margin-left: 5%;
     background-color: #fff;
     border-radius: 5px;
     -webkit-box-shadow: 0 2px 2px #efefef;
@@ -280,8 +296,8 @@ header {
 }
 
 .publication-box div:first-child {
-    background-color: #f4f4f4;
-    border: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .publication-box div:last-child {
@@ -305,6 +321,15 @@ header {
 }
 
 /* -------------------------------------------- */
+/* OTHER CONTENTS */
+/* -------------------------------------------- */
+
+.other-contents {
+    float: right;
+    width: 15%;
+}
+
+/* -------------------------------------------- */
 /* FOOTER */
 /* -------------------------------------------- */
 
@@ -312,7 +337,6 @@ footer {
     font-size: 80%;
     float: right;
     width: 15%;
-    margin-top: 100px;
 }
 
 
